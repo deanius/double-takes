@@ -11,7 +11,19 @@ Here's how this bad-boy looked, configured to 4 agents, 12 tasks each.
 * TODO Describe what to look for in these results, and why 'average' is a useless statistic]
 
 ```
-Tests completed  cleanly YAY!Timings: [ 59, 73, 82, 63, 60, 75, 66, 71, 76, 55, 61, 65, 64, 59, 54 ]Results: {  "success": 15,  "error": 0,  "average": 65.53333333333333,  "stdev": 8.219025547617003,  "max": 82,  "80th%": 73.4,  "99th%": 81.16}
+Tests completed  cleanly YAY!
+Timings:
+ [ 59, 73, 82, 63, 60, 75, 66, 71, 76, 55, 61, 65, 64, 59, 54 ]
+Results:
+ {
+  "success": 15,
+  "error": 0,
+  "average": 65.53333333333333,
+  "stdev": 8.219025547617003,
+  "max": 82,
+  "80th%": 73.4,
+  "99th%": 81.16
+}
 ```
 
 * TODO Describe the parameters, including the 'Chaos Knob', simulating longer network segments more subject to delay.
