@@ -1,4 +1,16 @@
----title: "Double Down on Testing With RxJS Load Tests"date: "2017-03-20"author:  name: "Dean Radcliffe"  url: "http://twitter.com/deaniusaur"tldr:  title: "RxJS can make for great load tests"  body: """Learn some strategies for testing with this example of RxJS code that tests a WebSocket-based site.        """---At Test Double, we love to test. Know about the Testing Pyramid, and use it. And, we'll roll our own testing code if we need to.
+---
+title: "Double Down on Testing With RxJS Load Tests"
+date: "2017-03-20"
+author:
+  name: "Dean Radcliffe"
+  url: "http://twitter.com/deaniusaur"
+tldr:
+  title: "RxJS can make for great load tests"
+  body: """
+Learn some strategies for testing with this example of RxJS code that tests a WebSocket-based site.
+        """
+---
+At Test Double, we love to test. Know about the Testing Pyramid, and use it. And, we'll roll our own testing code if we need to.
 
 Now- much of the testing pyramid focuses on correctness. Has Pass / Fail outcomes. Even aims to affect naming in pieces of code. Yet, sites with tons of these tests still fail in production - why? Every test they have is still screaming 'Green', while the email boxes fill up with complaints. Enter Load Testing, the orphan step-child of the testing suite. 
 
